@@ -1,0 +1,17 @@
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/DeviceInfo.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/DeviceStatus.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/Extrinsics.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/Metadata.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/IMUInfo.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/RGBD.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetBool.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetDeviceInfo.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetCameraInfo.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetInt32.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetString.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetFilter.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetInt32.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetString.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetArrays.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetUserCalibParams.idl
+/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetUserCalibParams.idl

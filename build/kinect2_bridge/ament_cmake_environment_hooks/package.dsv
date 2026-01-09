@@ -1,0 +1,4 @@
+source;share/kinect2_bridge/local_setup.bash
+source;share/kinect2_bridge/local_setup.dsv
+source;share/kinect2_bridge/local_setup.sh
+source;share/kinect2_bridge/local_setup.zsh

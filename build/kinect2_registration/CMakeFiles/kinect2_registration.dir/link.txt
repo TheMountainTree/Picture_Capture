@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkinect2_registration.a CMakeFiles/kinect2_registration.dir/src/depth_registration_cpu.cpp.o CMakeFiles/kinect2_registration.dir/src/kinect2_registration.cpp.o
+/usr/bin/ranlib libkinect2_registration.a

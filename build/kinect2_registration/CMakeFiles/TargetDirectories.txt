@@ -1,0 +1,10 @@
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/uninstall.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/kinect2_registration_uninstall.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/kinect2_registration.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/test.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/edit_cache.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/rebuild_cache.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/list_install_components.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/install.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/install/local.dir
+/home/themountaintree/workspace/ros2_ws/build/kinect2_registration/CMakeFiles/install/strip.dir

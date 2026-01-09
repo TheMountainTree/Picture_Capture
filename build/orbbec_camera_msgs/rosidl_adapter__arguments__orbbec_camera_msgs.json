@@ -1,0 +1,22 @@
+{
+  "package_name": "orbbec_camera_msgs",
+  "non_idl_tuples": [
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceInfo.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceStatus.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Extrinsics.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Metadata.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/IMUInfo.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/RGBD.msg",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetBool.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetInt32.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetString.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetFilter.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetInt32.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetString.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetArrays.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetUserCalibParams.srv",
+    "/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetUserCalibParams.srv"
+  ]
+}
