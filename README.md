@@ -39,7 +39,7 @@ We use the custom `get_picture` ROS 2 package to capture synchronized frames fro
 1.  Launch camera drivers:
     ```bash
     # Orbbec
-    ros2 launch orbbec_camera gemini330_series.launch.py
+    ros2 launch orbbec_camera femto_bolt.launch.py enable_point_cloud:=true
     # Kinect
     ros2 launch kinect2_bridge kinect2_bridge_launch.yaml
     ```
@@ -53,6 +53,8 @@ We use the custom `get_picture` ROS 2 package to capture synchronized frames fro
     -   Files are saved to `data/orbbec/` and `data/kinect2/`.
 
 ## 3. Calibration (`calibration_pipeline.py`)
+
+**[📖 Read the Detailed Theory Explanation (Textbook Style)](CALIBRATION_THEORY.md)**
 
 The calibration process is automated by the `calibration_pipeline.py` script, which executes a two-stage algorithm:
 
