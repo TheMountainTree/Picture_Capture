@@ -1,95 +1,93 @@
-# ROS 2 Multi-Camera Workspace
+# Dual-Camera Extrinsic Calibration Project
 
-This workspace is designed for synchronized data capture, processing, and visualization using **Orbbec** and **Kinect2** cameras. It integrates camera drivers with custom tools for recording RGB-D data and performing post-processing tasks like Region of Interest (ROI) extraction.
+This project provides a complete workflow for performing high-precision extrinsic calibration between an **Orbbec (Femto Bolt)** camera and a **Kinect V2** camera. 
+
+The core objective is to compute the homogeneous transformation matrix ($T_{O \to K}$) that aligns the coordinate systems of the two cameras, enabling data fusion and multi-camera applications.
 
 ## Project Structure
 
 ```
 ros2_ws/
 ├── src/
-│   ├── get_picture/       # Custom package for data capture & visualization
-│   ├── kinect2_ros2/      # ROS 2 Driver for Kinect V2 (Bridge, Calibration, etc.)
-│   └── OrbbecSDK_ROS2/    # ROS 2 Driver for Orbbec cameras (Gemini, Femto, etc.)
-├── ROI.py                 # Post-processing script for Region of Interest extraction
-├── data/                  # Default directory for storing captured data
-└── README.md              # Project documentation
+│   ├── get_picture/           # ROS 2 package for synchronized data capture
+│   ├── kinect2_ros2/          # Drivers for Kinect V2
+│   └── OrbbecSDK_ROS2/        # Drivers for Orbbec cameras
+├── data/                      # Data storage directory
+│   ├── orbbec/                # Captured Orbbec data
+│   ├── kinect2/               # Captured Kinect data
+│   ├── merge/                 # Fused point clouds
+│   ├── camera_parameters.txt  # Intrinsic & configuration parameters
+│   └── calibration_final.txt  # Final calibration result
+├── calibration_pipeline.py    # Main calibration script (PnP + ICP)
+├── transform.py               # Verification and fusion script
+└── README.md                  # Project documentation
 ```
 
-## Key Components
+## 1. Configuration (`data/camera_parameters.txt`)
 
-### 1. Data Capture (`src/get_picture`)
-A custom ROS 2 package that provides nodes to:
-- Capture RGB, Depth, and Point Cloud data from Orbbec and Kinect2 cameras.
-- Save data locally on demand (supports single or dual camera modes).
-- Visualize point clouds from both cameras simultaneously using Open3D.
+The project relies on accurate intrinsic parameters for both cameras. Key parameters are stored in **`data/camera_parameters.txt`**, including:
+- **Intrinsics (K)**: Camera matrix for Orbbec and Kinect.
+- **Distortion (D)**: Distortion coefficients.
+- **Extrinsics (Depth-to-Color)**: Transformation from depth frame to color frame (specifically for Orbbec).
+- **Calibration Target**: Dimensions of the chessboard (Rows: 8, Cols: 11, Square Size: 20mm).
 
-**[Read detailed documentation](src/get_picture/README.md)**
+## 2. Data Capture
 
-### 2. Camera Drivers
-- **Kinect2**: `kinect2_ros2` provides the bridge to interface with Kinect V2 sensors.
-- **Orbbec**: `OrbbecSDK_ROS2` provides support for various Orbbec 3D cameras.
+We use the custom `get_picture` ROS 2 package to capture synchronized frames from both cameras.
 
-### 3. Post-Processing (`ROI.py`)
-A utility script designed to segment specific objects (Region of Interest) from the captured point clouds.
-- **How it works**: 
-  1. Detects a chessboard pattern in the captured RGB image.
-  2. Projects the 2D chessboard area into 3D space using camera intrinsics.
-  3. Filters the Point Cloud to retain only the points corresponding to the chessboard area.
-- **Usage**:
-  ```bash
-  python3 ROI.py
-  ```
-  It automatically processes `.ply` and `.png` files found in `data/orbbec` and `data/kinect2`, generating `*_roi.ply` files.
+**Workflow:**
+1.  Launch camera drivers:
+    ```bash
+    # Orbbec
+    ros2 launch orbbec_camera gemini330_series.launch.py
+    # Kinect
+    ros2 launch kinect2_bridge kinect2_bridge_launch.yaml
+    ```
+2.  Run the capture node:
+    ```bash
+    ros2 run get_picture DualCameraSaveNode.py
+    ```
+3.  Capture data:
+    -   Place a chessboard in the overlapping field of view.
+    -   Press **`s`** to save a synchronized snapshot (Color images + Point Clouds).
+    -   Files are saved to `data/orbbec/` and `data/kinect2/`.
 
-## Getting Started
+## 3. Calibration (`calibration_pipeline.py`)
 
-### Prerequisites
-- **ROS 2** (Humble, Foxy, or compatible distribution)
-- **Python 3 Libraries**: `numpy`, `opencv-python`, `open3d`
-- **Hardware**: Orbbec and/or Kinect2 cameras connected.
+The calibration process is automated by the `calibration_pipeline.py` script, which executes a two-stage algorithm:
 
-### Build
-1. Clone the repository (if not already done).
-2. Install dependencies (using `rosdep` is recommended).
-3. Build the workspace:
-   ```bash
-   colcon build --symlink-install
-   ```
-4. Source the setup script:
-   ```bash
-   source install/setup.bash
-   ```
+**Stage 1: Symmetric PnP Calibration**
+-   Detects chessboard corners in synchronized color images.
+-   Reconstructs 3D points using ray-plane intersection.
+-   Computes the relative pose for each frame using `cv2.solvePnP`.
+-   Calculates a robust average transformation matrix ($T_{PnP}$).
 
-### Usage Workflow
+**Stage 2: ICP Refinement**
+-   Uses $T_{PnP}$ as the initial guess.
+-   Loads the corresponding point clouds from both cameras.
+-   Performs **Iterative Closest Point (ICP)** registration to fine-tune the alignment.
+-   Outputs the final high-precision transformation matrix.
 
-1. **Launch Drivers**: 
-   Start the drivers for your connected cameras.
-   - *Example for Orbbec*: `ros2 launch orbbec_camera gemini330_series.launch.py` (adjust for your model)
-   - *Example for Kinect2*: `ros2 launch kinect2_bridge kinect2_bridge_launch.yaml`
+**Usage:**
+```bash
+python3 calibration_pipeline.py
+```
+**Output:**
+-   `data/calibration_final.txt`: The final 4x4 homogenous transformation matrix.
 
-2. **Capture Data**:
-   Run the dual camera capture node:
-   ```bash
-   ros2 run get_picture DualCameraSaveNode.py
-   ```
-   - Press **`s`** in the preview window to save a snapshot from both cameras.
-   - Data is saved to `data/orbbec/` and `data/kinect2/`.
+## 4. Verification & Fusion (`transform.py`)
 
-3. **Process Data (ROI Extraction)**:
-   After capturing, run the ROI script to extract the relevant point cloud sections:
-   ```bash
-   python3 ROI.py
-   ```
+To verify the calibration accuracy, use `transform.py` to fuse the point clouds from both cameras using the computed calibration matrix.
 
-## Data Management
+**Features:**
+-   Loads `data/calibration_final.txt`.
+-   Transforms Orbbec point clouds into the Kinect coordinate system.
+-   Merges them into a single point cloud.
+-   **Visualization**: Orbbec points are colored **Red**, Kinect points are colored **Green**.
 
-Captured data is organized by camera in the `data/` directory:
-
-- **`data/orbbec/`**: Contains Orbbec captures.
-- **`data/kinect2/`**: Contains Kinect2 captures.
-
-**File naming convention:**
-- `*_color_*.png`: RGB Image
-- `*_depth_*.png`: Raw Depth Image
-- `*_cloud_*.ply`: Full Point Cloud
-- `*_roi.ply`: Segmented Point Cloud (generated by `ROI.py`)
+**Usage:**
+```bash
+python3 transform.py
+```
+**Output:**
+-   Merged point clouds are saved in `data/merge/`.

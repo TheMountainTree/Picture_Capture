@@ -53,8 +53,8 @@ class DualCameraSaveNode(Node):
         self.create_subscription(PointCloud2, '/camera/depth/points', self.orb_cloud_callback, qos_profile_sensor_data)
 
         # --- 订阅 Kinect2 (基于 get_kinect2_node.py) ---
-        self.create_subscription(Image, '/kinect2/qhd/image_color_rect', self.kin_color_callback, 10)
-        self.create_subscription(Image, '/kinect2/qhd/image_depth_rect', self.kin_depth_callback, qos_profile_sensor_data)
+        self.create_subscription(Image, '/kinect2/hd/image_color_rect', self.kin_color_callback, 10)
+        self.create_subscription(Image, '/kinect2/hd/image_depth_rect', self.kin_depth_callback, qos_profile_sensor_data)
         self.create_subscription(PointCloud2, '/kinect2/qhd/points', self.kin_cloud_callback, qos_profile_sensor_data)
 
         self.get_logger().info('Dual Camera Node started. Press "s" in any color window to save both.')
