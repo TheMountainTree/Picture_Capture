@@ -13,6 +13,7 @@ setup(
             'get_kinect2_node = get_picture.get_picture_node.get_kinect2_node:main',
             'dual_cam_view = get_picture.get_picture_node.dual_cam_view:main',
             'DualCameraSaveNode = get_picture.get_picture_node.DualCameraSaveNode:main',
+            'DualCameraKinectNode = get_picture.get_picture_node.DualCameraKinectNode:main',
         ],
     },
 )

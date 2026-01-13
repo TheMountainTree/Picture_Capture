@@ -1,0 +1,42 @@
+# Camera Parameters Configuration
+
+# ===============================
+# Orbbec Camera (Femto Bolt)
+# ===============================
+# Intrinsics (K)
+K_Orbbec:
+745.9627  0.0       638.2298
+0.0       745.2563  360.5474
+0.0       0.0       1.0
+
+# Distortion Coefficients (D) [k1, k2, p1, p2, k3]
+D_Orbbec:
+0.07809 -0.10810 -0.00012 -0.00006 0.04469
+
+# Depth to Color Extrinsics (T_depth2color)
+T_depth2color_Orbbec:
+1.000  -0.004 -0.004  0.032
+0.004   0.994 -0.105  0.001
+0.004   0.105  0.994 -0.002
+0.000   0.000  0.000  1.000
+
+# ===============================
+# Kinect V2
+# ===============================
+# Intrinsics (K)
+K_Kinect:
+540.6860  0.0       479.75
+0.0       540.6860  269.75
+0.0       0.0       1.0
+
+# Distortion Coefficients (D)
+D_Kinect:
+0.0 0.0 0.0 0.0 0.0
+
+# ===============================
+# Calibration Target
+# ===============================
+# Chessboard Pattern
+Rows: 8
+Cols: 11
+Square_Size: 0.020 m (20 mm)

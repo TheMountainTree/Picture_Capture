@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/themountaintree/workspace/ros2_ws/build/kinect2_registration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/themountaintree/workspace/ros2_ws/build/kinect2_registration -- -j20 -l20
+[0.149s] [100%] Built target kinect2_registration
+[0.156s] Invoked command in '/home/themountaintree/workspace/ros2_ws/build/kinect2_registration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/themountaintree/workspace/ros2_ws/build/kinect2_registration -- -j20 -l20
+[0.158s] Invoking command in '/home/themountaintree/workspace/ros2_ws/build/kinect2_registration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/themountaintree/workspace/ros2_ws/build/kinect2_registration
+[0.162s] -- Install configuration: ""
+[0.162s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/include/kinect2_registration
+[0.162s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/include/kinect2_registration/kinect2_console.h
+[0.162s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/include/kinect2_registration/kinect2_registration.h
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/lib/libkinect2_registration.a
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/library_path.sh
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/library_path.dsv
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/ament_index/resource_index/package_run_dependencies/kinect2_registration
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/ament_index/resource_index/parent_prefix_path/kinect2_registration
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/ament_prefix_path.sh
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/ament_prefix_path.dsv
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/path.sh
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/environment/path.dsv
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/local_setup.bash
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/local_setup.sh
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/local_setup.zsh
+[0.163s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/local_setup.dsv
+[0.163s] -- Installing: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/package.dsv
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/ament_index/resource_index/packages/kinect2_registration
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/cmake/ament_cmake_export_libraries-extras.cmake
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/cmake/kinect2_registrationConfig.cmake
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/cmake/kinect2_registrationConfig-version.cmake
+[0.164s] -- Up-to-date: /home/themountaintree/workspace/ros2_ws/install/kinect2_registration/share/kinect2_registration/package.xml
+[0.165s] Invoked command in '/home/themountaintree/workspace/ros2_ws/build/kinect2_registration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/themountaintree/workspace/ros2_ws/build/kinect2_registration

@@ -9,12 +9,14 @@ find_package(rclpy REQUIRED)
 # find_package(ament_cmake_ros REQUIRED)
 # find_package(rclcpp REQUIRED)
 
+# 自动收集目录下所有 .py 文件
+file(GLOB PYTHON_SCRIPTS
+  get_picture_node/*.py
+)
+
 # 安装 Python 脚本
 install(PROGRAMS
-  get_picture_node/get_picture_node.py
-  get_picture_node/get_kinect2_node.py
-  get_picture_node/dual_cam_view.py
-  get_picture_node/DualCameraSaveNode.py
+  ${PYTHON_SCRIPTS}
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -1,7 +1,9 @@
-/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/get_picture_node.py
-/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/get_kinect2_node.py
-/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/dual_cam_view.py
+/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/DualCameraKinectNode.py
+/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/DualCameraOrbbecNode.py
 /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/DualCameraSaveNode.py
+/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/dual_cam_view.py
+/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/get_kinect2_node.py
+/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture/get_picture_node.py
 /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index/resource_index/package_run_dependencies/get_picture
 /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index/resource_index/parent_prefix_path/get_picture
 /home/themountaintree/workspace/ros2_ws/install/get_picture/share/get_picture/environment/ament_prefix_path.sh

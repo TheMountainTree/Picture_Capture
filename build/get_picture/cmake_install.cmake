@@ -44,10 +44,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/get_picture" TYPE PROGRAM FILES
-    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/get_picture_node.py"
-    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/get_kinect2_node.py"
-    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/dual_cam_view.py"
+    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/DualCameraKinectNode.py"
+    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/DualCameraOrbbecNode.py"
     "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/DualCameraSaveNode.py"
+    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/dual_cam_view.py"
+    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/get_kinect2_node.py"
+    "/home/themountaintree/workspace/ros2_ws/src/get_picture/get_picture_node/get_picture_node.py"
     )
 endif()
 
