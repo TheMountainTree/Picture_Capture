@@ -1,0 +1,72 @@
+running egg_info
+writing ../../build/get_picture/get_picture.egg-info/PKG-INFO
+writing dependency_links to ../../build/get_picture/get_picture.egg-info/dependency_links.txt
+writing entry points to ../../build/get_picture/get_picture.egg-info/entry_points.txt
+writing requirements to ../../build/get_picture/get_picture.egg-info/requires.txt
+writing top-level names to ../../build/get_picture/get_picture.egg-info/top_level.txt
+reading manifest file '../../build/get_picture/get_picture.egg-info/SOURCES.txt'
+writing manifest file '../../build/get_picture/get_picture.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/dual_cam_view.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/aruco_pose_node.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/get_kinect2_node.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/DualCameraSaveNode.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/DualCameraOrbbecNode.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/DualCameraKinectNode.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/get_picture_node.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+copying get_picture/__init__.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+running install
+running install_lib
+creating /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/dual_cam_view.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/aruco_pose_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/get_kinect2_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/DualCameraSaveNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/DualCameraOrbbecNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/DualCameraKinectNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/get_picture_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture_node/__init__.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node
+creating /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/dual_cam_view.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/aruco_pose_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/get_kinect2_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/DualCameraSaveNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/DualCameraOrbbecNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/DualCameraKinectNode.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/get_picture_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/__init__.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/dual_cam_view.py to dual_cam_view.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/aruco_pose_node.py to aruco_pose_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/get_kinect2_node.py to get_kinect2_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/DualCameraSaveNode.py to DualCameraSaveNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/DualCameraOrbbecNode.py to DualCameraOrbbecNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/DualCameraKinectNode.py to DualCameraKinectNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/get_picture_node.py to get_picture_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/dual_cam_view.py to dual_cam_view.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/aruco_pose_node.py to aruco_pose_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/get_kinect2_node.py to get_kinect2_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/DualCameraSaveNode.py to DualCameraSaveNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/DualCameraOrbbecNode.py to DualCameraOrbbecNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/DualCameraKinectNode.py to DualCameraKinectNode.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/get_picture_node.py to get_picture_node.cpython-310.pyc
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index
+creating /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index/resource_index
+creating /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index/resource_index/packages
+copying resource/get_picture -> /home/themountaintree/workspace/ros2_ws/install/get_picture/share/ament_index/resource_index/packages
+copying package.xml -> /home/themountaintree/workspace/ros2_ws/install/get_picture/share/get_picture
+running install_egg_info
+Copying ../../build/get_picture/get_picture.egg-info to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture-0.0.0-py3.10.egg-info
+running install_scripts
+Installing DualCameraKinectNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing DualCameraOrbbecNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing DualCameraSaveNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing aruco_pose_node script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing dual_cam_view script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing get_kinect2_node script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing get_picture script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+writing list of installed files to '/home/themountaintree/workspace/ros2_ws/build/get_picture/install.log'

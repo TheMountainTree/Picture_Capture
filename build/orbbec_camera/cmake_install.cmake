@@ -141,7 +141,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so")
@@ -164,7 +164,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libframe_latency.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libframe_latency.so"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libframe_latency.so")
@@ -187,7 +187,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstart_benchmark.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstart_benchmark.so"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstart_benchmark.so")
@@ -210,7 +210,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_save_rgbir.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_save_rgbir.so"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_save_rgbir.so")
@@ -272,7 +272,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node")
@@ -292,7 +292,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node")
@@ -312,7 +312,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node")
@@ -332,7 +332,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/topic_statistics_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/topic_statistics_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/topic_statistics_node")
@@ -352,7 +352,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/service_benchmark_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/service_benchmark_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/service_benchmark_node")
@@ -372,7 +372,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/ob_benchmark_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/ob_benchmark_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/ob_benchmark_node")
@@ -392,7 +392,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/435le_example_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/435le_example_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/435le_example_node")
@@ -412,7 +412,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/set_device_ip")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/set_device_ip"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/set_device_ip")
@@ -432,7 +432,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/image_sync_example_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/image_sync_example_node"
-         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64:/home/themountaintree/workspace/ros2_ws/build/orbbec_camera:/opt/ros/humble/lib/x86_64-linux-gnu:/home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/lib:/home/themountaintree/anaconda3/envs/robot_env/lib:"
          NEW_RPATH ":/home/themountaintree/workspace/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/image_sync_example_node")

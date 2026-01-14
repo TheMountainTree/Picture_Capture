@@ -246,6 +246,7 @@ set_device_ip: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 set_device_ip: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 set_device_ip: /home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
 set_device_ip: /home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+set_device_ip: /home/themountaintree/anaconda3/envs/robot_env/lib/libpython3.10.so
 set_device_ip: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 set_device_ip: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 set_device_ip: /opt/ros/humble/lib/libtf2.so

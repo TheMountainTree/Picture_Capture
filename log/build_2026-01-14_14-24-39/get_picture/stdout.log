@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/get_picture/get_picture.egg-info/PKG-INFO
+writing dependency_links to ../../build/get_picture/get_picture.egg-info/dependency_links.txt
+writing entry points to ../../build/get_picture/get_picture.egg-info/entry_points.txt
+writing requirements to ../../build/get_picture/get_picture.egg-info/requires.txt
+writing top-level names to ../../build/get_picture/get_picture.egg-info/top_level.txt
+reading manifest file '../../build/get_picture/get_picture.egg-info/SOURCES.txt'
+writing manifest file '../../build/get_picture/get_picture.egg-info/SOURCES.txt'
+running build
+running build_py
+copying get_picture/aruco_pose_node.py -> /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture
+running install
+running install_lib
+copying /home/themountaintree/workspace/ros2_ws/build/get_picture/build/lib/get_picture/aruco_pose_node.py -> /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture
+byte-compiling /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture/aruco_pose_node.py to aruco_pose_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/get_picture/get_picture.egg-info to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/python3.10/site-packages/get_picture-0.0.0-py3.10.egg-info
+running install_scripts
+Installing DualCameraKinectNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing DualCameraOrbbecNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing DualCameraSaveNode script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing aruco_pose_node script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing dual_cam_view script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing get_kinect2_node script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+Installing get_picture script to /home/themountaintree/workspace/ros2_ws/install/get_picture/lib/get_picture
+writing list of installed files to '/home/themountaintree/workspace/ros2_ws/build/get_picture/install.log'

@@ -278,7 +278,7 @@ rosidl_generator_cpp/orbbec_camera_msgs/msg/device_info.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/orbbec_camera_msgs/msg/device_info.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/orbbec_camera_msgs/msg/device_info.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_generator_cpp__arguments.json
+	/home/themountaintree/anaconda3/envs/robot_env/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/orbbec_camera_msgs/msg/detail/device_info__builder.hpp: rosidl_generator_cpp/orbbec_camera_msgs/msg/device_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orbbec_camera_msgs/msg/detail/device_info__builder.hpp

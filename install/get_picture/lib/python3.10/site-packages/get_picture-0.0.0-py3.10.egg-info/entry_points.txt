@@ -1,0 +1,9 @@
+[console_scripts]
+DualCameraKinectNode = get_picture.DualCameraKinectNode:main
+DualCameraOrbbecNode = get_picture.DualCameraOrbbecNode:main
+DualCameraSaveNode = get_picture.DualCameraSaveNode:main
+aruco_pose_node = get_picture.aruco_pose_node:main
+dual_cam_view = get_picture.dual_cam_view:main
+get_kinect2_node = get_picture.get_kinect2_node:main
+get_picture = get_picture.get_picture_node:main
+

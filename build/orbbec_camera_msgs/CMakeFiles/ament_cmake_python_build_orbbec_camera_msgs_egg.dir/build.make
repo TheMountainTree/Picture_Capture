@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_orbbec_camera_msgs_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_orbbec_camera_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_orbbec_camera_msgs_egg:
-	cd /home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/ament_cmake_python/orbbec_camera_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/themountaintree/workspace/ros2_ws/build/orbbec_camera_msgs/ament_cmake_python/orbbec_camera_msgs && /home/themountaintree/anaconda3/envs/robot_env/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_orbbec_camera_msgs_egg: CMakeFiles/ament_cmake_python_build_orbbec_camera_msgs_egg
 ament_cmake_python_build_orbbec_camera_msgs_egg: CMakeFiles/ament_cmake_python_build_orbbec_camera_msgs_egg.dir/build.make

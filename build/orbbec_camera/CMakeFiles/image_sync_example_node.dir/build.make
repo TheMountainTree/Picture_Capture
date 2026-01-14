@@ -246,6 +246,7 @@ image_sync_example_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 image_sync_example_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 image_sync_example_node: /home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
 image_sync_example_node: /home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+image_sync_example_node: /home/themountaintree/anaconda3/envs/robot_env/lib/libpython3.10.so
 image_sync_example_node: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 image_sync_example_node: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 image_sync_example_node: /opt/ros/humble/lib/libtf2.so

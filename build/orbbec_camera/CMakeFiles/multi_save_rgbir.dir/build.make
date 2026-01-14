@@ -264,6 +264,7 @@ libmulti_save_rgbir.so: /home/themountaintree/workspace/ros2_ws/install/orbbec_c
 libmulti_save_rgbir.so: /home/themountaintree/workspace/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
 libmulti_save_rgbir.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libmulti_save_rgbir.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+libmulti_save_rgbir.so: /home/themountaintree/anaconda3/envs/robot_env/lib/libpython3.10.so
 libmulti_save_rgbir.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 libmulti_save_rgbir.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
 libmulti_save_rgbir.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so

@@ -1,9 +1,0 @@
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/uninstall.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/get_picture_uninstall.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/test.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/edit_cache.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/rebuild_cache.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/list_install_components.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/install.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/install/local.dir
-/home/themountaintree/workspace/ros2_ws/build/get_picture/CMakeFiles/install/strip.dir
