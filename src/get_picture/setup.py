@@ -31,6 +31,7 @@ setup(
             'DualCameraKinectNode = get_picture.DualCameraKinectNode:main',
             'aruco_pose_node = get_picture.aruco_pose_node:main',
             'DualCameraOrbbecNode = get_picture.DualCameraOrbbecNode:main',
+            'hand_eye_calib_node = get_picture.hand_eye_calib_node:main',
         ],
     },
 )

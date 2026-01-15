@@ -10,13 +10,13 @@ from scipy.spatial.transform import Rotation as R_scipy
 # Configuration
 # ===============================
 POSSIBLE_BASE_DIRS = [
-    "/home/themountaintree/workspace/ros2_ws/data",
+    "/home/themountaintree/workspace/Picture_Capture/data",
     os.path.join(os.getcwd(), "data"),
-    os.path.join(os.path.dirname(os.getcwd()), "ros2_ws/data"), 
+    os.path.join(os.path.dirname(os.getcwd()), "Picture_Capture/data"), 
     "/data"
 ]
 
-BASE_DIR = "/home/themountaintree/workspace/ros2_ws/data"
+BASE_DIR = "/home/themountaintree/workspace/Picture_Capture/data"
 for p in POSSIBLE_BASE_DIRS:
     if os.path.exists(os.path.join(p, "orbbec")):
         BASE_DIR = p
